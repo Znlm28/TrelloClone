@@ -1,0 +1,23 @@
+
+
+.board-content{
+    height: 90vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    // &::-webkeit-scrollbar{
+    //   -webkit-appearance: none;
+    // }
+    &::-webkeit-scrollbar:horizontal{
+        height: 11px;
+    }
+    &::-webkeit-scrollbar-thumb{
+        background-color: rgba(255, 255, 255, .24);
+        border-radius: 8px;
+    }
+    .column-drop-preview{
+        background-color: rgba(150, 150, 200, 0.1);
+        border: 1px dashed #abc;
+        margin: 5px 45px 5px 5px;
+    }
+}
